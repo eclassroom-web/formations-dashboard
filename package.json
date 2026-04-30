@@ -2,7 +2,7 @@
   "name": "formations-dashboard",
   "version": "0.0.1",
   "weweb": {
-    "type": "section"
+    "type": "wwobject"
   },
   "scripts": {
     "build": "weweb build",
