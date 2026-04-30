@@ -1,9 +1,13 @@
 {
   "name": "formations-dashboard",
   "version": "0.0.1",
+  "weweb": {
+    "type": "section"
+  },
   "scripts": {
-    "build": "weweb build -- name=formations-dashboard type=section",
-    "serve": "weweb serve"
+    "build": "weweb build",
+    "serve": "weweb serve",
+    "postinstall": "node patch-weweb-cli.js"
   },
   "devDependencies": {
     "@weweb/cli": "latest"
