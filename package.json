@@ -1,0 +1,11 @@
+{
+  "name": "formations-dashboard",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "weweb build -- name=formations-dashboard type=section",
+    "serve": "weweb serve"
+  },
+  "devDependencies": {
+    "@weweb/cli": "latest"
+  }
+}
