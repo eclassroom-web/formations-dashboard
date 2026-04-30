@@ -9,7 +9,10 @@
       "Bash(tasklist *)",
       "PowerShell(Get-Process *)",
       "Bash(taskkill *)",
-      "PowerShell(Stop-Process *)"
+      "PowerShell(Stop-Process *)",
+      "Bash(node --input-type=module)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(git add *)"
     ]
   }
 }
