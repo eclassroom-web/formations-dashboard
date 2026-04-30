@@ -2,15 +2,10 @@ export default {
   editor: {
     label: { en: "Formations Dashboard" },
   },
-  content: {
+  properties: {
     formations: {
       label: { en: "Formations" },
       type: "Array",
-      options: {
-        item: {
-          type: "Object",
-        },
-      },
       defaultValue: [
         {
           id: "1",
@@ -59,16 +54,6 @@ export default {
     {
       name: "edit-formation",
       label: { en: "On edit formation" },
-      event: { id: "" },
-    },
-    {
-      name: "delete-formation",
-      label: { en: "On delete formation" },
-      event: { id: "" },
-    },
-    {
-      name: "preview-formation",
-      label: { en: "On preview formation" },
       event: { id: "" },
     },
     {

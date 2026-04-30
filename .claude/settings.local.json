@@ -12,7 +12,11 @@
       "PowerShell(Stop-Process *)",
       "Bash(node --input-type=module)",
       "Bash(echo \"exit: $?\")",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(node -e \"console.log\\(require\\('@weweb/cli/package.json'\\).version\\)\")",
+      "Bash(npm show *)"
     ]
   }
 }
