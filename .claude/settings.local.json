@@ -2,7 +2,14 @@
   "permissions": {
     "allow": [
       "Bash(npm run *)",
-      "Bash(npx weweb *)"
+      "Bash(npx weweb *)",
+      "Bash(./node_modules/.bin/weweb serve *)",
+      "Bash(netstat -ano)",
+      "Bash(findstr \":8080\")",
+      "Bash(tasklist *)",
+      "PowerShell(Get-Process *)",
+      "Bash(taskkill *)",
+      "PowerShell(Stop-Process *)"
     ]
   }
 }

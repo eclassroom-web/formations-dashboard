@@ -2,10 +2,15 @@ export default {
   editor: {
     label: { en: "Formations Dashboard" },
   },
-  properties: {
+  content: {
     formations: {
       label: { en: "Formations" },
       type: "Array",
+      options: {
+        item: {
+          type: "Object",
+        },
+      },
       defaultValue: [
         {
           id: "1",

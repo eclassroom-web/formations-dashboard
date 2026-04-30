@@ -212,8 +212,10 @@ function onCreateFormation() {
 }
 
 onMounted(() => {
-  const saved = localStorage.getItem('ec_view_mode');
-  if (saved === 'grid' || saved === 'list') viewMode.value = saved;
+  try {
+    const saved = localStorage.getItem('ec_view_mode');
+    if (saved === 'grid' || saved === 'list') viewMode.value = saved;
+  } catch (_) {}
 });
 </script>
 
